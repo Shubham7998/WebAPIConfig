@@ -3,19 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Api", "MyApp.Api\MyApp.Api.csproj", "{F1229F71-AD00-4730-A9CF-C4B544606AAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.Api", "MyApp.Api\MyApp.Api.csproj", "{F1229F71-AD00-4730-A9CF-C4B544606AAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Model", "MyApp.Model\MyApp.Model.csproj", "{49AA9161-1DAB-433D-AD57-DD592580F031}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.Model", "MyApp.Model\MyApp.Model.csproj", "{49AA9161-1DAB-433D-AD57-DD592580F031}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Data", "MyApp.Data\MyApp.Data.csproj", "{5BC29FE4-8A97-4006-A584-D9BA09554E09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.Data", "MyApp.Data\MyApp.Data.csproj", "{5BC29FE4-8A97-4006-A584-D9BA09554E09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.IServices", "MyApp.IServices\MyApp.IServices.csproj", "{8FBDC02D-746B-4C91-9FCB-E414A3C12F42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.IServices", "MyApp.IServices\MyApp.IServices.csproj", "{8FBDC02D-746B-4C91-9FCB-E414A3C12F42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Services", "MyApp.Services\MyApp.Services.csproj", "{F90BF263-8905-4E80-9017-0B6CA0EA36AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.Services", "MyApp.Services\MyApp.Services.csproj", "{F90BF263-8905-4E80-9017-0B6CA0EA36AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Repositories", "MyApp.Repository\MyApp.Repositories.csproj", "{BDE40668-E7CA-408D-8B98-0FD27718E224}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.Repositories", "MyApp.Repository\MyApp.Repositories.csproj", "{BDE40668-E7CA-408D-8B98-0FD27718E224}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.IRepositories", "MyApp.IRepositories\MyApp.IRepositories.csproj", "{E25F68BB-B1D0-4038-8A6F-A75A03B99EBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.IRepositories", "MyApp.IRepositories\MyApp.IRepositories.csproj", "{E25F68BB-B1D0-4038-8A6F-A75A03B99EBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4940731B-0CDD-476E-8CC9-F5345BD75272}"
+	ProjectSection(SolutionItems) = preProject
+		help.txt = help.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
